@@ -56,7 +56,7 @@ required providers {
 
 #         # The name of the Terraform Cloud workspace to store Terraform state files in.
          workspaces {
-          name = "TP_CR460"
+          name = "CR460-A24-V2"
          }
        }
      }
@@ -74,7 +74,7 @@ jobs:
   terraform:
       ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-      ARM_SUBSCRIPTION_id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_id }}
     name: 'Terraform'
     runs-on: ubuntu-latest
