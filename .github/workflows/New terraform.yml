@@ -17,8 +17,7 @@ terraform {
 }
 
 jobs:  
-  terraform:    
-    name: 'Terraform'    
+     
     env:      
       ARM_CLIENT_ID: "72bf4578-f2b3-437a-bab8-f180f9404e9c"
       ARM_CLIENT_SECRET: "0b272c0c-1a87-4dbd-9736-695912597e2d"
